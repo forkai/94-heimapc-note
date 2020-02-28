@@ -4,6 +4,7 @@
     <router-link class="menu" to="/defaultSlot">默认插槽</router-link>
     <router-link class="menu" to="/bakSlot">后备内容</router-link>
     <router-link class="menu" to="/nameSlot">具名插槽</router-link>
+    <router-link class="menu" to="/scopeSlot">作用域插槽</router-link>
 
     <router-view></router-view>
   </div>

@@ -4,6 +4,7 @@ Vue.use(VueRouter) // 全局注册
 import defaultSlot from '../views/defaultslot'
 import bakSlot from '../views/bakslot'
 import nameSlot from '../views/nameSlot'
+import scopeSlot from '../views/scopeslot'
 export default new VueRouter({
     routes: [{
         path: '/',
@@ -17,6 +18,9 @@ export default new VueRouter({
     }, {
         path: '/nameSlot',
         component: nameSlot
+    }, {
+        path: '/scopeSlot',
+        component: scopeSlot
     }]
 })
 //  导出实例

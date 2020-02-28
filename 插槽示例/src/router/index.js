@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter) // 全局注册
 import defaultSlot from '../views/defaultslot'
 import bakSlot from '../views/bakslot'
+import nameSlot from '../views/nameSlot'
 export default new VueRouter({
     routes: [{
         path: '/',
@@ -13,6 +14,9 @@ export default new VueRouter({
     }, {
         path: '/bakSlot',
         component: bakSlot
+    }, {
+        path: '/nameSlot',
+        component: nameSlot
     }]
 })
 //  导出实例

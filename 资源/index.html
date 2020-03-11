@@ -25,8 +25,8 @@
             }
         },
         methods: {
-            setActiveItem () {
-                this.name = '李四'
+            setActiveItem (name) {
+                this.name = name
             }
         }
     })
@@ -37,8 +37,8 @@
         changeName () {
             // 可以用父子传值
           //  this.$refs.myFirstTest 获取到是就是第一个组件的实例
-          this.$refs.myFirstTest.setActiveItem() // 直接调用方法
-          this.$refs.mySecondTest.setActiveItem()
+          this.$refs.myFirstTest.setActiveItem('王五') // 直接调用方法
+          this.$refs.mySecondTest.setActiveItem('赵六')
         }
     }
   });
